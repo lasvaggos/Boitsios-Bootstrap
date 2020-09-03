@@ -1,0 +1,153 @@
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.logo-1 {
+  height: 150px;
+  width: 250px;
+}
+
+#header-top {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+#header-top span {
+  padding: 0 20px;
+}
+
+#header-top span .fas {
+  color: #272a60;
+  margin-right: 10px;
+}
+
+#header-top .social-icons {
+  padding: 0 20px;
+}
+
+#header-top .social-icons .fab {
+  color: #272a60;
+  margin-right: 10px;
+}
+
+#header-top .social-icons .fab:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  border-radius: 4px;
+}
+
+#showcase .carousel-item {
+  height: 700px;
+}
+
+#showcase .carousel-image-1 {
+  background: url(../img/chairs-inside-living-room-2343466.jpg) center center/cover;
+}
+
+#showcase .carousel-image-2 {
+  background: url(../img/skala.jpg) center center/cover;
+}
+
+#showcase .carousel-image-3 {
+  background: url(../img/pagkos-2.jpg) center center/cover;
+}
+
+#cards img {
+  height: 350px;
+  width: 520px;
+  -webkit-transition: -webkit-transform ease-in 0.2s;
+  transition: -webkit-transform ease-in 0.2s;
+  transition: transform ease-in 0.2s;
+  transition: transform ease-in 0.2s, -webkit-transform ease-in 0.2s;
+}
+
+#cards img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#main-footer .social-icons .fab {
+  color: #fff;
+  padding: 0 5px;
+}
+
+#main-footer .social-icons .fab:hover {
+  opacity: 0.8;
+}
+
+#main-footer .footer-menu {
+  list-style: none;
+}
+
+#main-footer .footer-menu li {
+  margin-bottom: 5px;
+}
+
+#main-footer .footer-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-footer .footer-menu a:hover {
+  opacity: 0.8;
+}
+
+#main-footer .footer-last .fas {
+  margin-right: 7px;
+}
+
+.home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/chairs-inside-living-room-2343466.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+
+.home-heading .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.gallery img {
+  width: 600px;
+  height: 300px;
+  -webkit-transition: -webkit-transform ease-in 0.2s;
+  transition: -webkit-transform ease-in 0.2s;
+  transition: transform ease-in 0.2s;
+  transition: transform ease-in 0.2s, -webkit-transform ease-in 0.2s;
+}
+
+.gallery img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@media only screen and (max-width: 768px) {
+  #header-top {
+    display: none;
+  }
+  #welcome {
+    text-align: center;
+  }
+  #main-footer .footer-display-mobile {
+    display: none;
+  }
+  .home-heading {
+    display: none;
+  }
+  #about {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
